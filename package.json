@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "ponnekanti.net",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.3",
+    "date-fns": "^4.1.0"
+  }
+}

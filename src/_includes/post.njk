@@ -1,0 +1,25 @@
+---
+layout: "base.njk"
+---
+<main>
+    <h1 style="margin-bottom: 2px;">{{ title | safe }}</h1> 
+    {% if lastModified %}
+    <p class="subtitle">Published: {{ date | date("dd/MM/yyyy") }}<br>Last modified: {{ lastModified | date("dd/MM/yyyy") }}</p>
+    {% else %}
+    <p class="subtitle">{{ date | date("dd/MM/yyyy") }}</p>
+    {% endif %}
+    <p>{{ content | safe }}</p>
+</main>
+<footer>
+    <hr>
+    <div class="footer-links">
+        {% set previousPost = collections.posts | getPreviousCollectionItem %}
+        {% set nextPost = collections.posts | getNextCollectionItem %}
+        {% if previousPost %}
+            <a href="{{ previousPost.url }}">Previous Post</a>
+        {% endif %}
+        {% if nextPost %}
+            <a href="{{ nextPost.url }}">Next Post</a>
+        {% endif %}
+    </div>
+</footer>

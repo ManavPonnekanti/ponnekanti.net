@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Migrating from Jekyll to Eleventy</title>
+    <meta name="title" content="Migrating from Jekyll to Eleventy">
+    <meta name="description" content="
+     
+    
+    
+    
+    N.B. If the term &#39;Static Site Generator&#39; is unfamiliar to you, I recommend reading this blogpost as a primer.
+Though it may look the...">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ponnekanti.net/">
+    <meta property="og:title" content="Migrating from Jekyll to Eleventy">
+    <meta property="og:description" content="
+     
+    
+    
+    
+    N.B. If the term &#39;Static Site Generator&#39; is unfamiliar to you, I recommend reading this blogpost as a primer.
+Though it may look the...">
+    <meta property="og:image" content="https://ponnekanti.net/web-app-manifest-512x512.png">
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preload" href="/eb-garamond-v30-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/eb-garamond-v30-latin-italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/eb-garamond-v30-latin-700italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/eb-garamond-v30-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/about" class="">About</a></li>
+            <li><a href="/bookshelf" class="">Bookshelf</a></li>
+        </ul>
+        <hr>
+    </nav>
+    <main>
+    <h1 style="margin-bottom: 2px;">Migrating from Jekyll to Eleventy</h1> 
+    
+    <p class="subtitle">20/11/2022</p>
+    
+    <p><p><em><strong>N.B.</strong></em> <em>If the term 'Static Site Generator' is unfamiliar to you, I recommend reading <a href="https://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">this blogpost</a> as a primer.</em></p>
+<p>Though it may look the same, the backend of this blog has been drastically simplified. Previously, I was using the static site generator <a href="https://jekyllrb.com/">Jekyll</a> to build this site, but I have now migrated to a newer, flashier, and much easier to use SSG called <a href="https://www.11ty.dev/">Eleventy</a>.</p>
+<p>My requirements for a SSG are threefold:</p>
+<ol>
+<li><strong>Fast build times:</strong> Ruby is infamously slow, and even with a couple of Gems and a handful of markdown files, my build times were climbing outrageously. When used in tandem with <a href="https://pages.github.com/">GitHub Pages</a>, I would frequently get build errors as well. On the other hand, Eleventy is extremely stable and almost best in class speed-wise, beaten only by Hugo. Switching hosting to Netlify has also drastically increased deployment times.</li>
+<li><strong>Simplicity and minimalism:</strong> Jekyll has a habit of generating a bunch of difficult-to-be-rid-of CSS and folders, referencing some deeply baked-in default template. This blog is simple! I don't have any need for 90% of the features offered by most SSGs, including the use of CSS pre-processors. Eleventy is zero-config and has sane defaults: I barely have to think about the build process.</li>
+<li><strong>Extensibility:</strong> Eleventy works with a number of independent template languages, including Liquid, which was what all my template files were written in. The import process was seamless and the export process, if needed, is equally so. I appreciate the lack of lock-in and the portability of my writing if needed in the future.</li>
+</ol>
+<p>There's a few other subsidiary things that are more or less universal amongst static site generators, such as zero telemetry, being able to write all pages in Markdown, no client-side JavaScript, and more exclusively to Eleventy, agnosticism towards directory structure.
+I feel morally obliged to mention that this is largely a matter of splitting hairs and whichever SSG you choose, you will be better off than using a bloated CMS like Wordpress or the like. There are highly approachable no-code options: my favourite is <a href="https://github.com/barryclark/jekyll-now">Jekyll Now</a> by Barry Clark, which is an excellent starting point.</p>
+</p>
+</main>
+<footer>
+    <hr>
+    <div class="footer-links">
+        
+        
+        
+        
+            <a href="/posts/teaching-psychiatry/">Next Post</a>
+        
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Manav&#39;s Web-log</title>
+  <subtitle>This is a longer description about your blog.</subtitle>
+  <link href="https://ponnekanti.net/feed.xml" rel="self" />
+  <link href="https://ponnekanti.net/" />
+  <updated>2025-04-02T00:00:00Z</updated>
+  <id>https://ponnekanti.net/</id>
+  <author>
+    <name>Manav Ponnekanti</name>
+    <email>manav@ponnekanti.net</email>
+  </author>
+  <entry>
+    <title>Choose craft software</title>
+    <link href="https://ponnekanti.net/posts/choose-craft-software/" />
+    <updated>2025-04-02T00:00:00Z</updated>
+    <id>https://ponnekanti.net/posts/choose-craft-software/</id>
+    <content type="html">&lt;p&gt;In this post I am going to try to make you care about some things that you almost certainly don&#39;t care about. Let us start with custom email hosting.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://purelymail.com&quot;&gt;Purelymail&lt;/a&gt; is a one-man-band company that, as the name promises, deals purely in mail. That is the sell: no BS, no tracking, just your email. The barebones nature of the service is part of the aesthetic:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ponnekanti.net/purelymail-lander.png&quot; alt=&quot;Purelymail lander&quot;&gt;&lt;/p&gt;
+&lt;p&gt;To those unfamiliar with the world of software made by one or a handful of obsessive enthusiasts, they might see a website like the above and think it is at worst a scam, at best a low-effort GCSE Computer Science project. What I wish to convince you of is that services that look like this are so good that they don&#39;t have to care about looking pretty*. To be sure, there is beautiful craft software out there, like anything my friend &lt;a href=&quot;https://joodaloop.com&quot;&gt;Judah&lt;/a&gt; makes, but more often than not it looks like this. So why use it?&lt;/p&gt;
+&lt;p&gt;Although I have some morbid misgivings with having a single point of failure for critical email, they have been all but displaced by how nice it has been to use Purelymail. It&#39;s the only mail provider I&#39;ve used that configures DMARC records by default – a necessity if you want people to actually see your mail. It has better passkey support than pretty much any big-name service I&#39;ve used, not just for email, but generally. The servers are super fast and worked seamlessly with all of my mail clients. 10/10 mail deliverability straight after configuration. All this for £7.70 a year.&lt;/p&gt;
+&lt;p&gt;My previous mail provider, Zoho, has a yearly revenue of a billion dollars, yet has accomplished precisely zero of these things. I have no idea who owns or runs Zoho. Purelymail is run by a guy called Scott. When I had a question about whether the SMTP port had auto-configured correctly on my phone (it did, by the way), I sent him an  email and he responded 40 minutes later. I&#39;d be lucky to get an automated response that fast from BigCorp.&lt;/p&gt;
+&lt;p&gt;This is the &#39;craft software experience&#39;. It shows us what the entirety of our digital lives could be like if we collectively chose to vote with our wallets for doing the basics really well. On the other hand, we can definitely live with and tolerate commercial slop software. Most of the time, and for enough people, it works OK. The harms of having our data harvested en masse and fed back to us through diabolical algorithms optimised for maximising user-minutes in unsavoury ways only feel scary when stated plainly in this fashion, but in practice feel quite abstract and difficult to care about. I&#39;m not going to try and convince you otherwise. But I will tell you that to give into this entirely is to expect too little from the computer you own and the software you run on it. If you truly contended with the amount of time you spend on your devices, how much mental space they take up, I think you too would find ways to make that experience feel more intentional, personal, even beautiful.&lt;/p&gt;
+&lt;p&gt;We are entering into an age of faceless technology – I suspect that before long, the vast majority of the software we use will be orchestrated and maintained almost entirely by AI models. Yet, there is something so gratifying about doing something mundane like sending emails whilst feeling a sense of ownership and control over the technology I use to accomplish it; to feel acquainted on some level with the makers of the tools I use; and for there to be appreciable care and thought in these tools.&lt;/p&gt;
+&lt;p&gt;I do not expect you to care in this way about the software you use, but I hope to have imparted enough discernment for you to feel disgust the next time you see a &#39;Notion Mail&#39; advert. &#39;Isn&#39;t this just a wrapper for Gmail that siphons my email contents for LLM training data?&#39; you will ask quizzically. And a tear of pride will roll down my cheek.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+*Often, not always.
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>An ode to the thigh</title>
+    <link href="https://ponnekanti.net/posts/an-ode-to-the-thigh/" />
+    <updated>2024-10-15T00:00:00Z</updated>
+    <id>https://ponnekanti.net/posts/an-ode-to-the-thigh/</id>
+    <content type="html">&lt;p&gt;I dissected the thigh today. Unexpectedly, it was my favourite dissection so far in medical school. Beautiful, intricately structured layers. The fascia here is not disorganised like it is in other areas of the body; it is a cohesive sheath which blankets and envelops the underlying muscle, save for a small, palpable port-hole through which emerges the singular great saphenous vein, running down to the foot in an unbroken fashion, its route traceable as if following the path of a wire behind a table. This remarkable arrangement earns it the name &lt;em&gt;fascia lata&lt;/em&gt;, or the “great fascia”.&lt;/p&gt;
+&lt;p&gt;From the base of the saphenous opening you cut a clean line through the fascia down to the knee. The fascia splits open, but clings tightly to its underlying structures. This close association is a remnant of its function in life: it restricts the external expansion of the lower limb muscles, forcing the pressure of their contractions to be directed inwards, thus massaging the veins of these far-flung regions of the body. This remarkable stroke of biological efficiency leverages the ordinary motions of these muscles to aid venous return where blood’s battle against gravity is at its most acute. Moreover, the degree of this assistance scales with the body’s demand for rapid oxygenation, and the logic for this is purely mechanical—it is precisely the activities which necessitate the repeated contraction of the leg muscles which will drive up oxygen demand in those tissues.&lt;/p&gt;
+&lt;p&gt;You must peel the fascia lata back, not unlike an orange, to reveal the gleaming and perfectly segmented muscles below. At the top, emerging from beneath the inguinal ligament, the kindred iliacus and psoas major. Below, the three superficially visible heads of the quadriceps, spanning the entire horizontal width of the anterior thigh, possessing the suggestion of great power. Towards the midline lie the adductors, arranged with great care to resemble a Japanese folding fan. Finally, sartorious, the tailor’s muscle, which wraps around the entire compartment like a gift bow.&lt;/p&gt;
+&lt;p&gt;At first, my wonder and reverence at this sight confused me deeply. Why is it that the sense of a greater design seems most evident in this somewhat arbitrary part of the body? The brain, by its fruit, would be the obvious candidate. Yet to my eye, if we are to consider anatomical structure alone, it is dwarfed aesthetically by the unassuming briliance of the thigh’s arrangement, its elegant hyphenation of form and function.&lt;/p&gt;
+&lt;p&gt;Then it struck me—there is nothing arbitrary about the lower limb at all. My consciousness, in its definitional egotism, would of course seek the greatest beauty in its own biological substrate. Nature, however, adheres to a different philosophy. The machine of selection is driven by pursuit. The surviving predator is the one who outruns his prey. The prey animal who reproduces, in turn, is the one who evades successfully. The most fundamental evolutionary act is motion, not cognition; and if motion is the lever, the hind-limb is its fulcrum.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Wellness as work ethic</title>
+    <link href="https://ponnekanti.net/posts/wellness-work-ethic/" />
+    <updated>2024-04-04T00:00:00Z</updated>
+    <id>https://ponnekanti.net/posts/wellness-work-ethic/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;This essay was originally published in Vol VI Issue 2 of the&lt;/em&gt; RUMS Review &lt;em&gt;magazine. You can read the full issue &lt;a href=&quot;https://online.fliphtml5.com/plvos/ywhu/#p=35&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Modern medicine has put health back into the hands of the individual. A slew of evidence over the past few decades has established exercise, mindful eating, and other such lifestyle interventions as necessities for the maintenance of good health. This evidence base has spawned public messaging campaigns, legislation such as the Soft Drinks Industry Levy and the proposed phased ban on cigarettes, and (perhaps most conspicuously) a 5-billion-dollar behemoth of a wellness industry.&lt;/p&gt;
+&lt;p&gt;Much of this intensity is warranted! As little as three hours of exercise a week is associated with around a 42% decrease in all-cause mortality. But therein lies the rub — going from zero to three hours of exercise a week does exponentially more for your health than going from five to fifteen (1). I find that my conception of good health often neglects this harsh law of diminishing returns that governs all lifestyle changes, and I end up descending into a kind of “discipline essentialism” in which optimal health is at my fingertips if only I can muster gulping down a protein shake and heading out for a 5k. If Nike advertisements are anything to go by, the collective societal conception of wellness is not far off this either. This sort of aspirational mindset is relatively harmless when it comes to hawking over-engineered running shoes, but it becomes dangerous when it percolates into healthcare provision.&lt;/p&gt;
+&lt;p&gt;Semaglutide is a good example of this phenomenon. Branded as Wegovy in the UK and available as a medication for type 2 diabetes (T2D), it is a glucagon-like peptide-1 (GLP-1) receptor agonist which stimulates the production of insulin. In America it is branded as Ozempic and is available for both T2D and as a weight loss drug. In the UK (as of March 2024) it is only available as a weight loss treatment for those with or at high risk of getting T2D. As with all pharmaceuticals, there is a need to evaluate risk against benefit and cautiously monitor the longitudinal effects of chronic use, but this is by no means an untested drug. It has been used since 2017 to manage diabetes, and it has remarkable efficacy: it works in 84% of the tested population and it outperforms all previous weight loss drugs in outcomes(2).&lt;/p&gt;
+&lt;p&gt;It almost seems too good to be true, and that could well be the problem. Previous weight loss treatments have always had a cost of some variety — Qsymia (phentermine/topiramate) is another weight loss pill and, put simply, it works by making food incredibly unappetising, along with a battery of unpleasant side effects (3). For severe morbid obesity, bariatric surgery is the last-line intervention. It is an incredibly invasive procedure and carries all the risks and trappings of any surgery (4). This can easily lead to an implicit belief that any pharmacological “easy solution” for weight loss is a Faustian bargain, and thus necessitates some sort of enormous sacrifice or negative consequence if someone does not “earn” a healthy body through diet and exercise.&lt;/p&gt;
+&lt;p&gt;The argument for the restriction of Wegovy, then, is a motte-and-bailey: the motte is concern for the precautionary principle, but the fact that the drug is widely available not just as a treatment for T2D but specifically as a weight loss drug for those with T2D reveals the bailey – that restricting the drug for weight loss alone is motivated by a fundamentally unscientific impulse. It seems as if a relatively consequence-free shortcut to weight loss contravenes some natural law. Perhaps it is a subconscious sense that high-status indicators of good health, such as physical fitness, must be earned through a high effort lifestyle.&lt;/p&gt;
+&lt;p&gt;You don’t need to look far to find this kind of thinking in other areas of medicine. The flavouring agent monosodium glutamate (MSG) has been plagued with unwarranted scrutiny since the 1960s. It is used for its umami (savoury/meaty) flavour, and therefore can reduce the need for sodium. Today, it is widely recognised as entirely safe for consumption, but for decades it has been seen as toxic. This perception has somewhat racial origins: it is used widely in Asian cooking and was used as a scapegoat molecule for “Chinese restaurant syndrome”. This was later laundered into medical literature as the “MSG symptom complex” (5). I think the enthusiastic adoption and propagation of this baseless view was also enabled by an incredulity towards the idea that it is possible to enjoy food that tastes stereotypically unhealthy without incurring an associated health cost. Here, too, the presence of an inviolable natural law is felt.&lt;/p&gt;
+&lt;p&gt;There is an urgent need to do away with this quasi-religious tendency in healthcare. Not only does it deter people from embracing the rather marginal lifestyle changes that have outsized impact, but it clouds our ability to be scientifically objective about the risks and benefits of potentially life-changing therapeutics. Precaution is laudable, but we must ensure that it comes from a place of empirical enquiry and not a vague unease about “taking shortcuts”. We must embrace progress for the sake of our future patients. And when progress arrives in the form of a pill, prescribe judiciously and without judgement; leave the penance to the pastor.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Lee DH, Rezende LFM, Joh H-K, Keum N, Ferrari G, Rey-Lopez JP, et al. Long-Term Leisure-Time Physical Activity Intensity and All-Cause and Cause-Specific Mortality: A Prospective Cohort of US Adults. Circulation. 2022 Aug 16;146(7):523–34.&lt;/li&gt;
+&lt;li&gt;Singh G, Krauthamer M, Bjalme-Evans M. Wegovy (semaglutide): a new weight loss drug for chronic weight management. J Investig Med. 2022 Jan;70(1):5–13.&lt;/li&gt;
+&lt;li&gt;Rothman RB, Baumann MH. Neurochemical mechanisms of phentermine and fenfluramine: Therapeutic and adverse effects. Drug Dev Res. 2000 Oct;51(2):52–65.&lt;/li&gt;
+&lt;li&gt;Livingston EH. Complications of bariatric surgery. Surg Clin North Am. 2005 Aug;85(4):853–68, vii.&lt;/li&gt;
+&lt;li&gt;Williams AN, Woessner KM. Monosodium glutamate ‘allergy’: menace or myth? Clin Exp Allergy. 2009 May;39(5):640–6.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Some poems I like</title>
+    <link href="https://ponnekanti.net/posts/poems-i-like/" />
+    <updated>2024-04-04T00:00:00Z</updated>
+    <id>https://ponnekanti.net/posts/poems-i-like/</id>
+    <content type="html">&lt;p&gt;I came across &lt;a href=&quot;https://www.newyorker.com/magazine/2023/03/06/put-my-house&quot;&gt;this poem&lt;/a&gt; in the New Yorker and it made me despair somewhat. This is my retaliation.&lt;/p&gt;
+&lt;h2&gt;A Shropshire Lad, XL&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;A.E. Housman&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;
+Into my heart an air that kills
+From yon far country blows:
+What are those blue remembered hills,
+What spires, what farms are those?
+
+That is the land of lost content,
+I see it shining plain,
+The happy highways where I went
+And cannot come again.
+&lt;/pre&gt;
+&lt;h2&gt;Moonlight Night&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;R.M. Rilke&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;
+South-German night! The ripe moon hangs above
+Weaving enchantment o&#39;er the shadowy lea.
+From the old tower the hours fall heavily
+Into the dark as though into the sea—
+A rustle, a call of night-watch in the grove,
+Then for a while void silence fills the air;
+And then a violin (from God knows where)
+Awakes and slowly sings: Oh Love . . . Oh Love . . .
+&lt;/pre&gt;
+&lt;h2&gt;He Wishes For The Cloths Of Heaven&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;W.B. Yeats&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;
+Had I the heavens’ embroidered cloths,
+Enwrought with golden and silver light,
+The blue and the dim and the dark cloths
+Of night and light and the half-light,
+I would spread the cloths under your feet:
+But I, being poor, have only my dreams;
+I have spread my dreams under your feet;
+Tread softly because you tread on my dreams.
+&lt;/pre&gt;
+&lt;h2&gt;The Eye-Mote&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Sylvia Plath&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;
+Blameless as daylight I stood looking
+At a field of horses, necks bent, manes blown,
+Tails streaming against the green
+Backdrop of sycamores. Sun was striking
+White chapel pinnacles over the roofs,
+Holding the horses, the clouds, the leaves
+
+Steadily rooted though they were all flowing
+Away to the left like reeds in a sea
+When the splinter flew in and stuck my eye,
+Needling it dark. Then I was seeing
+A melding of shapes in a hot rain:
+Horses warped on the altering green,
+
+Outlandish as double-humped camels or unicorns,
+Grazing at the margins of a bad monochrome,
+Beasts of oasis, a better time.
+Abrading my lid, the small grain burns:
+Red cinder around which I myself,
+Horses, planets and spires revolve.
+
+Neither tears nor the easing flush
+Of eyebaths can unseat the speck:
+It sticks, and it has stuck a week:
+I wear the present itch for flesh,
+Blind to what will be and what was.
+I dream that I am Oedipus.
+
+What I want back is what I was
+Before the bed, before the knife,
+Before the brooch-pin and the salve
+Fixed me in this parenthesis;
+Horses fluent in the wind,
+A place, a time gone out of mind.
+&lt;/pre&gt;
+&lt;h2&gt;Brahma&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;R.W. Emerson&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;
+If the red slayer think he slays,
+Or if the slain think he is slain,
+They know not well the subtle ways
+I keep, and pass, and turn again.
+
+Far or forgot to me is near;
+Shadow and sunlight are the same;
+The vanished gods to me appear;
+And one to me are shame and fame.
+
+They reckon ill who leave me out;
+When me they fly, I am the wings;
+I am the doubter and the doubt,
+I am the hymn the Brahmin sings.
+
+The strong gods pine for my abode,
+And pine in vain the sacred Seven;
+But thou, meek lover of the good!
+Find me, and turn thy back on heaven.
+&lt;/pre&gt;
+&lt;h2&gt;Sonnet 29&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;William Shakespeare&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;
+When, in disgrace with fortune and men’s eyes,
+I all alone beweep my outcast state,
+And trouble deaf heaven with my bootless cries,
+And look upon myself and curse my fate,
+Wishing me like to one more rich in hope,
+Featured like him, like him with friends possessed,
+Desiring this man’s art and that man’s scope,
+With what I most enjoy contented least;
+Yet in these thoughts myself almost despising,
+Haply I think on thee, and then my state,
+(Like to the lark at break of day arising
+From sullen earth) sings hymns at heaven’s gate;
+       For thy sweet love remembered such wealth brings
+       That then I scorn to change my state with kings.
+&lt;/pre&gt;
+&lt;h2&gt;The Sorcerer Departs (unfinished)&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Clark Ashton Smith&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;
+I pass… but in this lone and crumbling tower,
+Builded against the burrowing seas of chaos,
+My volumes and my philtres shall abide:
+Poisons more dear than any mithridate,
+And spells far sweeter than the speech of love…
+Half-shapen dooms shall slumber in my vaults
+And in my volumes cryptic runes that shall
+Outblast the pestilence, outgnaw the worm
+When loosed by alien wizards on strange years
+Under the blackened moon and paling sun.
+&lt;/pre&gt;</content>
+  </entry>
+  <entry>
+    <title>Min-maxing quality of life enhancements</title>
+    <link href="https://ponnekanti.net/posts/min-maxing/" />
+    <updated>2024-03-20T00:00:00Z</updated>
+    <id>https://ponnekanti.net/posts/min-maxing/</id>
+    <content type="html">&lt;p&gt;I’ve come to believe that for each respective QoL enhancement there is an optimal level of engagement at which you reap pretty much all of the benefit, and any further cognitive energy and money you funnel into it is just chasing a nonexistent white whale.&lt;/p&gt;
+&lt;p&gt;In an effort to make hundreds of hours of forum-trawling worth something, below is a list of the various niches I’ve become obsessed with over the years and associated products which I think represent the pragmatic peak. Go no further, just buy it and enjoy it and do more useful things with your time.&lt;/p&gt;
+&lt;h2&gt;Coffee&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Clever Dripper
+&lt;ul&gt;
+&lt;li&gt;Follow &lt;a href=&quot;https://youtu.be/RpOdennxP24?si=u9rJSFD7p9JRxPih&quot;&gt;this&lt;/a&gt; recipe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hand-crank grinder
+&lt;ul&gt;
+&lt;li&gt;Budget: &lt;em&gt;Hario Skerton&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mid-range: &lt;em&gt;Timemore C2&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;High-end: &lt;em&gt;Comandante C40&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bulk purchase “house blend” beans from a home-delivery roaster&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Tea&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Generic cup infuser (&lt;a href=&quot;https://www.amazon.com/OXO-BREW-Tea-Infuser-Basket/dp/B07GF4WYGT/ref=sr_1_4?crid=XI8DN97DH3UT&amp;amp;dib=eyJ2IjoiMSJ9.8lgCA83o3K-GNzniLr7x_J1Qe4YtQRR0Lw7019weY0SlipHPOn0XjWVvnF8YbxScfIE1rz7c1CgJzdlR05Gpv2zwTRTIr0rm6dqgR6lRTsEBM1IrPBUemojvQv6BkmCXXusiGflSHrGuWOslFLi2MGnuCiWJLMKZG9ToWBY7je6ISgNnYxPY40stM7GNCOJSb04de0V3iDvmVAWtmU4c0nPzaDt-Tkji8IpEM3-MXS1BqAiGhR1b_sSctZ_hVYFX0DB6rjXtE5qYk2KFbLyTl0ap_5wYvDx5hw_WVR-gPUQ.TBV-b0MteaKkAzURG-I8dX90cbbLua1dvSfxYBwfdQA&amp;amp;dib_tag=se&amp;amp;keywords=tea+basket+brewer&amp;amp;qid=1711901793&amp;amp;sprefix=tea+basket+brewer%2Caps%2C190&amp;amp;sr=8-4&quot;&gt;here&lt;/a&gt; is an example, avoid those small ball infusers)&lt;/li&gt;
+&lt;li&gt;If brewing for two or more, use a (clean) french press instead a teapot&lt;/li&gt;
+&lt;li&gt;Try green teas, oolongs, and black teas to figure out what you like
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Gyokuro&lt;/em&gt; is a Japanese tea, and it is good representative for greens&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Jin Xuan&lt;/em&gt;, also known as ‘milk oolong’ is Chinese, and is worth trying for its naturally creamy flavour — in a good milk oolong, no milk is actually used in the preparation process&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Darjeeling&lt;/em&gt; is a good representative for Indian black teas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pick a vendor from &lt;a href=&quot;https://www.reddit.com/r/tea/wiki/vendors/page_01/?utm_source=share&amp;amp;utm_medium=ios_app&amp;amp;utm_name=iossmf&quot;&gt;this list&lt;/a&gt; and you’ll probably end up with something good&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Mechanical keyboards&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Anything from &lt;a href=&quot;https://www.keychron.com/&quot;&gt;&lt;em&gt;Keychron&lt;/em&gt;&lt;/a&gt; that fits your preferred keyboard layout and size&lt;/li&gt;
+&lt;li&gt;In terms of key switches:
+&lt;ul&gt;
+&lt;li&gt;Clicky (blue) if you want something loud and mechanical-feeling, avoid if you are going to use in a communal space&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Tactile (brown) if you just want to type — middle of the road option&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear (red/yellow) if you are going to game on your computer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.pckeyboard.com/page/SFNT&quot;&gt;&lt;em&gt;Unicomp&lt;/em&gt;&lt;/a&gt; make replicas of the IBM Model M buckling spring keyboards; loud but an unbeatable typing experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Shaving&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Merkur 34C&lt;/em&gt; safety razor and whatever canned shaving foam you prefer&lt;/li&gt;
+&lt;li&gt;Get a blade sampler pack from somewhere like &lt;a href=&quot;https://www.westcoastshaving.com/collections/razor-blades-sample-packs&quot;&gt;here&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure to get one with &lt;em&gt;Personna&lt;/em&gt; blades since they are gentle and a good way to learn without cutting yourself, but you will probably end up wanting something more aggressive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Writing implements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fountain pens
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Lamy Safari&lt;/em&gt; with the &lt;em&gt;Z28&lt;/em&gt; converter to use bottled ink (if you hold your pen conventionally)&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Platinum Preppy&lt;/em&gt; is even cheaper and is more forgiving of non-typical pen grips&lt;/li&gt;
+&lt;li&gt;For inks, everything from &lt;em&gt;Diamine&lt;/em&gt; is good&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ballpoint: &lt;em&gt;Uniball Jetstream&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Rollerball: &lt;em&gt;Pilot Precise V5/V7&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Gel: &lt;em&gt;Pentel EnerGel&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Pencil: &lt;em&gt;Staedler 925 35-05&lt;/em&gt; with &lt;em&gt;Pentel Hi Polymer Super 0.5mm 2B&lt;/em&gt; lead&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Headphones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Beyerdynamic DT770 Pro&lt;/em&gt; 80-ohm
+&lt;ul&gt;
+&lt;li&gt;If you have a Mac, you don’t need a DAC&lt;/li&gt;
+&lt;li&gt;If you don’t, then purchase the &lt;em&gt;FiiO K3&lt;/em&gt; and the 256-ohm version of these headphones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Printers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Any black-and-white &lt;em&gt;Brother&lt;/em&gt; laser printer, and use it wired if you can&lt;/li&gt;
+&lt;li&gt;Not even AGI will solve printer wireless networking&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The serotonin theory of depression: a post-mortem analysis</title>
+    <link href="https://ponnekanti.net/posts/serotonin-theory-post-mortem/" />
+    <updated>2024-01-05T00:00:00Z</updated>
+    <id>https://ponnekanti.net/posts/serotonin-theory-post-mortem/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;This piece was written in collaboration with &lt;a href=&quot;https://x.com/Aryan_AroraA&quot;&gt;Aryan Arora&lt;/a&gt; and originally published in Vol XI Issue 1 of the&lt;/em&gt; RUMS Review &lt;em&gt;Magazine. The full issue is available &lt;a href=&quot;https://online.fliphtml5.com/plvos/ujxj/index.html#p=1&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Major depressive disorder, commonly referred to as depression, lies in the unfortunate realm of conditions which are simultaneously widespread, debilitating, stigmatised, and poorly understood. It is one of psychiatry’s paradigm-defining maladies; being the most common mental illness, it affects more than 264 million people globally and is the second leading cause of chronic disability worldwide. Its enigmatic nature has occupied minds both medical and artistic for millennia, from Hippocrates’ “humoral melancholia” to the “anomie” of the Romantics. Contemporary understandings emphasise a triad of symptoms: low mood, anhedonia (inability to feel pleasure in normally pleasurable activities), and fatigue.&lt;/p&gt;
+&lt;p&gt;In contending with this enigmatic condition, few theories have sparked as much debate and introspection as the serotonin hypothesis of depression. This enduring view, which posits a causative association between brain serotonin levels and depression, has recently come under intense scrutiny, compelling a reevaluation of not only the theory itself, but also the broader psychiatric paradigms it influenced.&lt;/p&gt;
+&lt;p&gt;The origins of the serotonin hypothesis are deeply rooted in the monoamine hypothesis, a theory which emerged in the 1950s and 1960s. This hypothesis was born from a confluence of serendipitous pharmacological discoveries and the burgeoning field of neurochemistry. Initially, researchers observed that drugs which depleted monoamine neurotransmitters, such as norepinephrine and serotonin, often induced depressive symptoms, while drugs that increased their levels seemed to have mood-elevating effects. This led to the conjecture that depression could be the result of a deficiency in monoamine neurotransmitters.&lt;/p&gt;
+&lt;p&gt;As research progressed, the focus sharpened on serotonin due to its widespread influence in the brain and its role in mood regulation. The discovery that reserpine, a medication that depleted serotonin levels, could induce a depression-like state in some patients, further cemented the link between serotonin and mood disorders. Over time, this generalised monoamine hypothesis evolved into a more specific serotonin hypothesis, leading to the development of selective serotonin reuptake inhibitors (SSRIs). These drugs, designed to specifically target serotonin reuptake, were seen as a vindication of the serotonin-centric view of depression, marking a significant shift in psychiatric tre atment paradigms. This discovery was more than just a scientific observation— it was a narrative that resonated deeply with both the medical community and the public. It offered a simple, tangible explanation for an otherwise elusive and complex condition.&lt;/p&gt;
+&lt;p&gt;As this theory began to be canonised into the default explanatory toolkit of psychiatrists, prescription of SSRIs became synonymous with the management of depression and associated affective disturbances. Beyond pharmacology, the serotonin hypothesis became a cornerstone of the biopsychosocial model in psychiatry. It conveniently folded biological factors in with psychological and environmental ones, painting a multifaceted picture of mental illness and softening the reductionist intensity of this biochemical narrative.&lt;/p&gt;
+&lt;p&gt;We are, however, seeing a critical counter-narrative take shape and challenge this established perspective. Although these scientific and philosophical discontentments with the status quo are not new in psychiatry, the recent &lt;em&gt;Nature&lt;/em&gt; umbrella review by Moncrieff &lt;em&gt;et al.&lt;/em&gt; conducted at UCL has brought them into sharp relief. Their analysis suggested that the relationship between serotonin and depression was far more complex and less direct than previously believed. It included 17 studies comprising systematic reviews, meta-analyses, and large dataset analyses, and found no consistent evidence supporting the association between serotonin and depression, nor did it support the hypothesis that depression is caused by lowered serotonin activity or concentrations. The review also highlighted that some evidence suggested long-term antidepressant use might reduce serotonin concentration.This revelation sparked a series of debates and discussions within the psychiatric community, revealing deeper issues within psychiatric epistemology.&lt;/p&gt;
+&lt;p&gt;Historically, clinicians have brought the biopsychosocial model into clinical practice via a “perspectivism” which allows them to maintain a pluralistic understanding of the psyche without collapsing into an overly reductive and single-minded school of thought. This ideally serves as a dynamic synthesis of the many schools of therapeutic thought, which privileges the utility of these narratives in situ over fervent adherence to a particular method. What this review perhaps reveals is that this perspectivism unintentionally functions as a conversational stopping point— instead of allowing the resolution of biological, psychological, and social factors into a coherent model, it holds them in an unstable superposition of “perspectives&#39;&#39;, never allowing them to make contact with reality. Despite its appealingly holistic approach, it suffers from a lack of clarity in integrating its diverse components: the biological explanations are given tacit priority over the socio-psychological conditions, often purely as a result of medicated treatment being more expedient and less costly than more multifaceted psychotherapeutic and community-based approaches.&lt;/p&gt;
+&lt;p&gt;Though it was intended to generate a richer understanding of the patient experience and avoid propagating false certainty, this raises concerns about the potential dilution of empirical standards in psychiatric research. The practice of psychiatry has always involved an intricate dance between the empirical and the subjective, but the separation of the ‘clinical art’ from scientific practice raises essential questions about how we reconcile the broader paradigm of evidence based medicine with the need for deeply individualised care that honours the subjectivity of psychiatric disorders.&lt;/p&gt;
+&lt;p&gt;The saga of the serotonin theory of depression is emblematic of the broader challenges faced by psychiatry as a field. It is a confluence of multitudes held in delicate equilibrium: the necessity for empirical rigour in the laboratory must always be counterbalanced by a profound appreciation for subjectivity in the clinic. Biopsychosocial perspectivism is more necessary than ever to navigate the radically widening field of possibilities in mental health treatment, but it mustn&#39;t enjoy a lack of empirical restraint or give in to facile explanations of endlessly complex mental phenomena. It is in threading this conceptual needle that we may stitch together a richer and more complete tapestry of the maladies of the mind.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Some thoughts on teaching psychiatry</title>
+    <link href="https://ponnekanti.net/posts/teaching-psychiatry/" />
+    <updated>2023-07-17T00:00:00Z</updated>
+    <id>https://ponnekanti.net/posts/teaching-psychiatry/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;I was left with some reflections (and doubts) after the psychiatry lectures I received over my first year in medical school. I have been putting off writing them up, but in the interest of populating this blog with&lt;/em&gt; something, &lt;em&gt;below lie some disorganised impressions on the topic. Take seriously at your own caution.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The word “biopsychosocial” comes up a lot in lectures, which is directionally good, but the supposedly equal treatment of these factors seems a bit nominal and epistemologically confused. The unspoken implication of a lot of this teaching is that the psyche is the substrate of neuroanatomy and neurochemistry, which is no doubt defensible, but nonetheless establishes a hierarchy in which the psychosocial component is secondary to the biological.&lt;/p&gt;
+&lt;p&gt;I wouldn’t have an issue with being taught in this way so long as these assumptions were articulated. But they can’t be, because accepting the causal primacy of the brain implies the induction-aptness of the mind, which conflicts with the &amp;quot;enclosed&amp;quot; nature of phenomenology. And this too I could accept, so long as psychiatric diagnosis was similarly induction-apt, if it was simply identifying neuroses on an fMRI. But the diagnostic protocols hinge on the reality of subjective experience, returning us to the initial problem.&lt;/p&gt;
+&lt;p&gt;So it seems to me that “biopsychosociality” functions as a conversational stopping point - instead of allowing the resolution of these factors into a coherent model, it holds them in an unstable superposition of perspectives, never allowing them to make contact with reality.&lt;/p&gt;
+&lt;p&gt;I feel this could be effectively remedied by including a handful of lectures on strong opposition views. UCL is privileged to host the formidable Joanna Montcrieff, whose &lt;a href=&quot;https://www.nature.com/articles/s41380-022-01661-0&quot;&gt;umbrella review&lt;/a&gt; very unambiguously picks a side. Though presenting this kind of highly motivated work in a didactic context brings its own set of challenges, I believe it would be seriously valuable to make medical students—some of whom will end up choosing psychiatry—aware that this internal discourse exists in the first place, as opposed to reifying the consensus view as settled science.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Migrating from Jekyll to Eleventy</title>
+    <link href="https://ponnekanti.net/posts/blog-migration/" />
+    <updated>2022-11-20T00:00:00Z</updated>
+    <id>https://ponnekanti.net/posts/blog-migration/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;N.B.&lt;/strong&gt;&lt;/em&gt; &lt;em&gt;If the term &#39;Static Site Generator&#39; is unfamiliar to you, I recommend reading &lt;a href=&quot;https://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html&quot;&gt;this blogpost&lt;/a&gt; as a primer.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Though it may look the same, the backend of this blog has been drastically simplified. Previously, I was using the static site generator &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to build this site, but I have now migrated to a newer, flashier, and much easier to use SSG called &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My requirements for a SSG are threefold:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Fast build times:&lt;/strong&gt; Ruby is infamously slow, and even with a couple of Gems and a handful of markdown files, my build times were climbing outrageously. When used in tandem with &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, I would frequently get build errors as well. On the other hand, Eleventy is extremely stable and almost best in class speed-wise, beaten only by Hugo. Switching hosting to Netlify has also drastically increased deployment times.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplicity and minimalism:&lt;/strong&gt; Jekyll has a habit of generating a bunch of difficult-to-be-rid-of CSS and folders, referencing some deeply baked-in default template. This blog is simple! I don&#39;t have any need for 90% of the features offered by most SSGs, including the use of CSS pre-processors. Eleventy is zero-config and has sane defaults: I barely have to think about the build process.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extensibility:&lt;/strong&gt; Eleventy works with a number of independent template languages, including Liquid, which was what all my template files were written in. The import process was seamless and the export process, if needed, is equally so. I appreciate the lack of lock-in and the portability of my writing if needed in the future.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There&#39;s a few other subsidiary things that are more or less universal amongst static site generators, such as zero telemetry, being able to write all pages in Markdown, no client-side JavaScript, and more exclusively to Eleventy, agnosticism towards directory structure.
+I feel morally obliged to mention that this is largely a matter of splitting hairs and whichever SSG you choose, you will be better off than using a bloated CMS like Wordpress or the like. There are highly approachable no-code options: my favourite is &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now&lt;/a&gt; by Barry Clark, which is an excellent starting point.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

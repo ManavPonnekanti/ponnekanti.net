@@ -1,0 +1,157 @@
+/* eb-garamond-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('eb-garamond-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* eb-garamond-italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    src: url('eb-garamond-v30-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* eb-garamond-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 700;
+    src: url('eb-garamond-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* eb-garamond-700italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 700;
+    src: url('eb-garamond-v30-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  
+:root {
+    --bg: #fff;
+    --bg2: #f7f7f7;
+    --text: #222;
+    --text2: #777;
+    --ui: #aaa;
+    --link: #9a0026;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 670px;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;;
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text2)
+}
+
+nav a.active {
+    color: var(--text);
+}
+
+hr {
+    border: 0.5px solid var(--ui);
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    padding: 2px 5px;
+    margin: 0 2px;
+    background-color: var(--bg2);
+}
+
+pre {
+    font-family: inherit;
+    padding: 10px;
+    background-color: var(--bg2);
+    overflow-x: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+
+blockquote {
+    color: var(--text2);
+    border-left: 4px solid var(--ui);
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.subtitle {
+    font-size: 0.8em;
+    color: var(--text2);
+    margin-top: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.post-date {
+    color: var(--text2);
+    margin-right: 10px;
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
