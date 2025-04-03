@@ -1,10 +1,10 @@
 ---
-title: Manav's Web-log
+title: Manav's Web-Log
 layout: page.njk
 description: "And now I see with eye serene / The very pulse of the machine;"
 ---
 <main>
-    <p>Subscribe to new posts by email via <a href="http://">FeedRabbit</a>, or subscribe via <a href="/feed.xml">RSS</a>.</p>
+    <p>Subscribe to new posts by email via <a href="https://feedrabbit.com/signup?return_url=%2Fsubscriptions%2Fnew%3Furl%3Dhttps%253A%252F%252Fponnekanti.net%252Ffeed.xml">FeedRabbit</a>, or subscribe via <a href="/feed.xml">RSS</a>.</p>
 
     {% for year, posts in collections.posts | groupby("data.year") | dictsort | reverse %}
     <h2>{{ year }}</h2>
