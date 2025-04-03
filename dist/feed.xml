@@ -4,12 +4,29 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://ponnekanti.net/feed.xml" rel="self" />
   <link href="https://ponnekanti.net/" />
-  <updated>2025-04-02T00:00:00Z</updated>
+  <updated>2025-04-03T00:00:00Z</updated>
   <id>https://ponnekanti.net/</id>
   <author>
     <name>Manav Ponnekanti</name>
     <email>manav@ponnekanti.net</email>
   </author>
+  <entry>
+    <title>Venturing into computational psychiatry</title>
+    <link href="https://ponnekanti.net/posts/venturing-into-computational-psychiatry/" />
+    <updated>2025-04-03T00:00:00Z</updated>
+    <id>https://ponnekanti.net/posts/venturing-into-computational-psychiatry/</id>
+    <content type="html">&lt;p&gt;Next year, provided exams go well, I will be starting my &lt;a href=&quot;https://www.ucl.ac.uk/school-life-medical-sciences/intercalated-bsc-programmes-ucl-ibsc&quot;&gt;intercalated BSc&lt;/a&gt; in Neuroscience. As part of this, I will be undertaking a lab project at the &lt;a href=&quot;https://acplab.org&quot;&gt;Applied Computational Psychiatry Lab&lt;/a&gt;, with whom I worked last summer as well.&lt;/p&gt;
+&lt;p&gt;Given that I only have nine months to work on this, it seems likely that I will be hyper-focused on a highly scoped project, so I worry that I will be subsumed by minutiae and lose my grip on the bigger picture. To this end, I have been reading Seriès&#39;s &lt;em&gt;Computational Neuroscience: A Primer&lt;/em&gt;. I have been enjoying the historical view of how this niche has emerged. Its development was less stochastic than I imagined it to be; a handful of researchers, often motivated by powerful personal experience with psychopathology, sought to apply the well-established methods of computational neuroscience to the far murkier waters of phenomenal experience. Emotively, this certainly appeals to my medic-brain: mapping out higher-level emotional circuitry feels far more tangible and urgent.&lt;/p&gt;
+&lt;p&gt;Equally, I have some scruples. I think I could very easily fall into some conceptual traps while working in this area. The main one is reifying computational &lt;em&gt;models&lt;/em&gt; of the mind and treating them as the mind &lt;em&gt;qua&lt;/em&gt; itself. Many have dismissed computational approaches altogether on these grounds, but I believe it is possible to apply them to the psyche whilst being aware that you are not capturing anything of the underlying phenomenal state – just systematising some of the inputs and outputs of the state.&lt;/p&gt;
+&lt;p&gt;With this in mind, the central question I will be taking into this project is whether it is actually possible to make computational models that do not compromise the primacy of patient phenomenology in psychopathology.&lt;/p&gt;
+&lt;p&gt;Some more basic questions I have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What do computational models actually help us with in terms of clinical approaches?&lt;/li&gt;
+&lt;li&gt;What are the major opposing paradigms to circuit-driven accounts of psychopathology?&lt;/li&gt;
+&lt;li&gt;⁠To what extent is it possible to integrate the strengths of other approaches into the computational paradigm?&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Choose craft software</title>
     <link href="https://ponnekanti.net/posts/choose-craft-software/" />
