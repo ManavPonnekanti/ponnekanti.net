@@ -142,11 +142,11 @@ footer {
 .post-container {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 5px;
 }
 
 .post-date {
-    color: var(--text2);
-    margin-right: 10px;
+    margin-right: 20px;
     font-variant-numeric: tabular-nums;
 }
 
