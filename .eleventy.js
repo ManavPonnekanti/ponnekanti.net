@@ -9,6 +9,29 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "src/img/": "/" });
     eleventyConfig.addPassthroughCopy({ "node_modules/instant.page/instantpage.js": "/" });
 
+    // Transform to add lazy loading to all images
+    eleventyConfig.addTransform("lazyImages", function(content, outputPath) {
+        // Only process HTML files
+        if(outputPath && outputPath.endsWith(".html")) {
+            // Use regex to find all img tags and add loading="lazy" attribute
+            const imgRegex = /<img(?:.*?)(?:(?:src=["'](.*?)["'])(?:.*?))?>/gi;
+            
+            // Replace all img tags with lazy loading attribute
+            const newContent = content.replace(imgRegex, function(match) {
+                // Check if loading attribute already exists
+                if (!match.includes('loading=')) {
+                    // Add loading="lazy" right before the closing bracket
+                    return match.replace(/>$/, ' loading="lazy">');
+                }
+                return match;
+            });
+            
+            return newContent;
+        }
+        
+        return content;
+    });
+
     // Add a date filter to format dates
     eleventyConfig.addFilter('date', function(date, dateFormat) {
         return format(date, dateFormat);
