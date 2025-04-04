@@ -8,7 +8,7 @@ Click [here](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fponnekan
 
 FeedRabbit is a service that sends new posts (and nothing else!) to your inbox whenever they are published, without the usual ads, tracking, and telemetry rubbish that accompanies most email newsletters. This means you can lie to me about reading them and I will be none the wiser.
 
-When you press `sign up to subscribe` you will be prompted to enter your email and create an account (if you don't have one already). Make sure to click the link in the confirmation email to start receiving my posts.
+When you click 'sign up to subscribe' you will be prompted to enter your email and create an account (if you don't have one already). Make sure to click the link in the confirmation email to start receiving my posts.
 
 ## By RSS
 
