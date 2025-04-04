@@ -32,11 +32,12 @@
   }
   
 :root {
-    --bg: #fdf6e3;
-    --bg2: #eee8d5;
+    --bg: #fff;
+    --bg2: #f7f7f7;
     --text: #222;
     --text2: #777;
     --ui: #aaa;
+    --link: #9a0026;
 }
 
 body {
@@ -67,12 +68,12 @@ h3 {
 }
 
 a {
-    color: inherit;
-    text-decoration: underline;
+    color: var(--link);
+    text-decoration: none;
 }
 
 a:hover {
-    color: var(--text2);
+    text-decoration: underline;
 }
 
 nav ul {
@@ -91,7 +92,6 @@ nav li:last-child {
 }
 
 nav a {
-    text-decoration: none;
     color: var(--text2)
 }
 
@@ -100,7 +100,8 @@ nav a.active {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--link);
 }
 
 hr {
