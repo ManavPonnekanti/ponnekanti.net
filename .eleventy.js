@@ -55,7 +55,7 @@ export default function(eleventyConfig) {
         },
         metadata: {
             language: "en",
-            title: "Manav's Web-log",
+            title: "Manav Ponnekanti",
             base: "https://ponnekanti.net/",
             author: {
                 name: "Manav Ponnekanti",
