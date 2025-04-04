@@ -1,54 +1,53 @@
-/* crimson-text-regular - latin */
+/* cormorant-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Crimson Text';
+    font-family: 'Cormorant';
     font-style: normal;
     font-weight: 400;
-    src: url('/crimson-text-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/cormorant-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-  /* crimson-text-italic - latin */
+  /* cormorant-italic - latin */
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Crimson Text';
+    font-family: 'Cormorant';
     font-style: italic;
     font-weight: 400;
-    src: url('/crimson-text-v19-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/cormorant-v21-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-  /* crimson-text-700 - latin */
+  /* cormorant-700 - latin */
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Crimson Text';
+    font-family: 'Cormorant';
     font-style: normal;
     font-weight: 700;
-    src: url('/crimson-text-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/cormorant-v21-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-  /* crimson-text-700italic - latin */
+  /* cormorant-700italic - latin */
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Crimson Text';
+    font-family: 'Cormorant';
     font-style: italic;
     font-weight: 700;
-    src: url('/crimson-text-v19-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/cormorant-v21-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
 :root {
-    --bg: #fff;
-    --bg2: #f7f7f7;
+    --bg: #fdf6e3;
+    --bg2: #eee8d5;
     --text: #222;
     --text2: #777;
     --ui: #aaa;
-    --link: #9a0026;
 }
 
 body {
     background-color: var(--bg);
     color: var(--text);
-    font-family: 'Crimson Text', serif;
+    font-family: 'Cormorant', serif;
     font-size: 20px;
     line-height: 1.6;
     margin: 0 auto;
     padding: 15px;
-    max-width: 670px;
+    max-width: 650px;
 }
 
 h1, h2, h3 {
@@ -68,12 +67,12 @@ h3 {
 }
 
 a {
-    color: var(--link);
-    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: var(--text2);
 }
 
 nav ul {
@@ -101,8 +100,7 @@ nav a.active {
 }
 
 nav a:hover {
-    color: var(--link);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 hr {
@@ -146,7 +144,7 @@ footer {
 }
 
 .subtitle {
-    font-size: 0.8em;
+    font-size: 0.85em;
     color: var(--text2);
     margin-top: 10px;
 }

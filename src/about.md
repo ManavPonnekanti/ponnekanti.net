@@ -16,4 +16,4 @@ You can contact me via email at [firstname] at ponnekanti dot net.
 
 ## Colophon
 
-This blog is built with [Eleventy](https://11ty.dev/), a static site generator; I have written about its merits [here](/posts/blog-migration). It is hosted for free on [Cloudflare Pages](https://pages.cloudflare.com). The font used is a subset WOFF2 version of [EB Garamond](https://fonts.google.com/specimen/EB+Garamond). The site also uses an [instant.page](instant.page) script to pre-load internal links upon hover.
+This blog is built with [Eleventy](https://11ty.dev/), a static site generator; I have written about its merits [here](/posts/blog-migration). It is hosted for free on [Cloudflare Pages](https://pages.cloudflare.com). The font used is a subset WOFF2 version of [Cormorant](https://fonts.google.com/specimen/Cormorant). The site also uses an [instant.page](instant.page) script to pre-load internal links upon hover.
