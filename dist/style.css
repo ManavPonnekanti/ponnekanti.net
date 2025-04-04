@@ -1,35 +1,18 @@
-/* eb-garamond-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'EB Garamond';
+    src: url('EBGaramond-subset.woff2') format('woff2');
+    font-weight: 100 900;
     font-style: normal;
-    font-weight: 400;
-    src: url('eb-garamond-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: swap;
   }
-/* eb-garamond-italic - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  
+  @font-face {
     font-family: 'EB Garamond';
+    src: url('EBGaramond-Italic-subset.woff2') format('woff2');
+    font-weight: 100 900;
     font-style: italic;
-    font-weight: 400;
-    src: url('eb-garamond-v30-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* eb-garamond-700 - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'EB Garamond';
-    font-style: normal;
-    font-weight: 700;
-    src: url('eb-garamond-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* eb-garamond-700italic - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'EB Garamond';
-    font-style: italic;
-    font-weight: 700;
-    src: url('eb-garamond-v30-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+    font-display: swap;
+  }
   
 :root {
     --bg: #fff;
@@ -56,15 +39,18 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 1.5em;
+    font-weight: 800;
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 1.1em;
+    font-weight: 500;
 }
 
 a {
@@ -98,6 +84,11 @@ nav a {
 
 nav a.active {
     color: var(--text);
+}
+
+nav a:hover {
+    color: var(--link);
+    text-decoration: none;
 }
 
 hr {

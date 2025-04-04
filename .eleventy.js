@@ -4,8 +4,8 @@ import { format } from 'date-fns';
 export default function(eleventyConfig) {
     //File passthroughs
     eleventyConfig.addPassthroughCopy("src/style.css");
-    eleventyConfig.addPassthroughCopy("src/favicon");
-    eleventyConfig.addPassthroughCopy("src/fonts");
+    eleventyConfig.addPassthroughCopy({ "src/fonts/": "/" });
+    eleventyConfig.addPassthroughCopy({ "src/favicon/": "/" });
     eleventyConfig.addPassthroughCopy({ "src/img/": "/" });
     eleventyConfig.addPassthroughCopy({ "node_modules/instant.page/instantpage.js": "/" });
 
@@ -55,7 +55,7 @@ export default function(eleventyConfig) {
         },
         metadata: {
             language: "en",
-            title: "Manav Ponnekanti",
+            title: "Manav Ponnekanti's Blog",
             base: "https://ponnekanti.net/",
             author: {
                 name: "Manav Ponnekanti",
