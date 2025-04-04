@@ -97,7 +97,7 @@ hr {
 
 code {
     font-family: 'Courier New', monospace;
-    font-size: 14px;
+    font-size: 0.9em;
     padding: 2px 5px;
     margin: 0 2px;
     background-color: var(--bg2);
