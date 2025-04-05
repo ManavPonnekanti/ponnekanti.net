@@ -167,7 +167,6 @@ footer {
 
 .subscribe {
     display: flex;
-    max-width: 50%;
     gap: 10px;
     flex-wrap: nowrap;
 }   
@@ -202,9 +201,5 @@ footer {
 @media (max-width: 600px) {
     body {
         font-size: 16px;
-    }
-
-    .subscribe {
-        max-width: 100%;
     }
 }
