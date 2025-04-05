@@ -158,6 +158,7 @@ footer {
 }
 
 .post-date {
+    color: var(--text2);
     min-width: max-content;
     text-align: right;
     justify-content: flex-end;
