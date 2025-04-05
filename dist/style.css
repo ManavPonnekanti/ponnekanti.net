@@ -1,34 +1,26 @@
-/* cormorant-regular - latin */
+
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Cormorant';
+    font-display: swap;
+    font-family: 'Redaction';
     font-style: normal;
     font-weight: 400;
-    src: url('/cormorant-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/Redaction-Regular.woff2') format('woff2');
   }
-  /* cormorant-italic - latin */
+
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Cormorant';
+    font-display: swap;
+    font-family: 'Redaction';
     font-style: italic;
     font-weight: 400;
-    src: url('/cormorant-v21-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/Redaction-Italic.woff2') format('woff2');
   }
-  /* cormorant-700 - latin */
+
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Cormorant';
+    font-display: swap;
+    font-family: 'Redaction';
     font-style: normal;
     font-weight: 700;
-    src: url('/cormorant-v21-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* cormorant-700italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Cormorant';
-    font-style: italic;
-    font-weight: 700;
-    src: url('/cormorant-v21-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('/Redaction-Bold.woff2') format('woff2');
   }
   
 :root {
@@ -43,8 +35,8 @@
 body {
     background-color: var(--bg);
     color: var(--text);
-    font-family: 'Cormorant', serif;
-    font-size: 20px;
+    font-family: 'Redaction', serif;
+    font-size: 18px;
     line-height: 1.6;
     margin: 0 auto;
     padding: 15px;
@@ -158,16 +150,60 @@ footer {
 .post-container {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    flex: 1;
 }
 
 .post-date {
-    margin-right: 20px;
-    font-variant-numeric: tabular-nums;
+    min-width: max-content;
+    text-align: right;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+.subscribe {
+    display: flex;
+    max-width: 50%;
+    gap: 10px;
+    flex-wrap: nowrap;
+}   
+
+.subscribe input[type="email"] {
+    flex: 1;
+    min-width: 0;
+    padding: 5px 10px;
+    border: 0.5px solid var(--ui);
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.subscribe button {
+    flex-shrink: 0;
+    padding: 5px 15px;
+    background-color: var(--link);
+    color: var(--bg);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    white-space: nowrap;
+}
+
+.disclaimer {
+    font-size: 0.6em;
+    color: var(--text2);
+    margin-top: 5px;
 }
 
 @media (max-width: 600px) {
     body {
         font-size: 18px;
+    }
+
+    .subscribe {
+        max-width: 100%;
     }
 }
