@@ -16,7 +16,7 @@ In an effort to make hundreds of hours of forum-trawling worth something, below 
   - Mid-range: *Timemore C2*
   - High-end: *Comandante C40*
 - Bulk purchase “house blend” beans from a home-delivery roaster
-- 
+
 ## Tea
 
 - Generic cup infuser ([here](https://www.amazon.com/OXO-BREW-Tea-Infuser-Basket/dp/B07GF4WYGT/ref=sr_1_4?crid=XI8DN97DH3UT&dib=eyJ2IjoiMSJ9.8lgCA83o3K-GNzniLr7x_J1Qe4YtQRR0Lw7019weY0SlipHPOn0XjWVvnF8YbxScfIE1rz7c1CgJzdlR05Gpv2zwTRTIr0rm6dqgR6lRTsEBM1IrPBUemojvQv6BkmCXXusiGflSHrGuWOslFLi2MGnuCiWJLMKZG9ToWBY7je6ISgNnYxPY40stM7GNCOJSb04de0V3iDvmVAWtmU4c0nPzaDt-Tkji8IpEM3-MXS1BqAiGhR1b_sSctZ_hVYFX0DB6rjXtE5qYk2KFbLyTl0ap_5wYvDx5hw_WVR-gPUQ.TBV-b0MteaKkAzURG-I8dX90cbbLua1dvSfxYBwfdQA&dib_tag=se&keywords=tea+basket+brewer&qid=1711901793&sprefix=tea+basket+brewer%2Caps%2C190&sr=8-4) is an example, avoid those small ball infusers)
