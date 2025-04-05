@@ -21,6 +21,6 @@ This is the 'craft software experience'. It shows us what the entirety of our di
  
  I do not expect you to care in this way about the software you use, but I hope to have imparted enough discernment for you to feel disgust the next time you see a 'Notion Mail' advert. 'Isn't this just a wrapper for Gmail that siphons my email contents for LLM training data?' you will ask quizzically. And a tear of pride will roll down my cheek.
 
-<div class=footnotes>
+<div class=footnote>
 *Often, not always.
 </div>
