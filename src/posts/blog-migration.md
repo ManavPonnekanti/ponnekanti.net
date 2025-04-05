@@ -2,7 +2,7 @@
 title: Migrating from Jekyll to Eleventy
 date: 2022-11-20
 ---
-***N.B.*** *If the term 'Static Site Generator' is unfamiliar to you, I recommend reading [this blogpost](https://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html) as a primer.*
+*N.B.* *If the term 'Static Site Generator' is unfamiliar to you, I recommend reading [this blogpost](https://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html) as a primer.*
 
 Though it may look the same, the backend of this blog has been drastically simplified. Previously, I was using the static site generator [Jekyll](https://jekyllrb.com/) to build this site, but I have now migrated to a newer, flashier, and much easier to use SSG called [Eleventy](https://www.11ty.dev/).
 
