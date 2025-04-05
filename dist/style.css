@@ -164,23 +164,33 @@ footer {
     justify-content: flex-end;
     margin-left: 20px;
 }
-
-.subscribe {
+.subscribe-container {
     display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.subscribe-text {
+    margin: 0px;
+}
+
+.subscribe-box {
+    display: flex;
+    flex-grow: 1;
     gap: 10px;
     flex-wrap: nowrap;
 }   
 
-.subscribe input[type="email"] {
+.subscribe-box input[type="email"] {
     flex: 1;
     min-width: 0;
-    padding: 5px 10px;
     border: 0.5px solid var(--ui);
     border-radius: 5px;
     font-family: inherit;
 }
 
-.subscribe button {
+.subscribe-box button {
     flex-shrink: 0;
     padding: 5px 15px;
     background-color: var(--link);
@@ -196,10 +206,16 @@ footer {
     font-size: 0.6em;
     color: var(--text2);
     margin-top: 5px;
+    text-align: right;
 }
 
 @media (max-width: 600px) {
     body {
         font-size: 16px;
+    }
+
+    .subscribe-container {
+        flex-direction: column;
+        align-items: stretch;
     }
 }
