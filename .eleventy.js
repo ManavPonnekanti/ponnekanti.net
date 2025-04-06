@@ -1,6 +1,7 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { format } from 'date-fns';
 import markdownIt from "markdown-it";
+import { load } from 'cheerio';
 
 export default function(eleventyConfig) {
     //File passthroughs
@@ -92,6 +93,22 @@ export default function(eleventyConfig) {
         }
 
         return description;
+    });
+
+    eleventyConfig.addTransform("externalLinks", (content, outputPath) => {
+        if (outputPath && outputPath.endsWith(".html")) {
+            const $ = load(content);
+            $("a[href]").each(function () {
+                const href = $(this).attr("href");
+                // Check if link is external
+                if (href && href.startsWith("http") && !href.includes("ponnekanti.net")) {
+                    $(this).attr("target", "_blank");
+                    $(this).attr("rel", "noopener noreferrer");
+                }
+            });
+            return $.html();
+        }
+        return content;
     });
 
     eleventyConfig.setLibrary("md", markdownLib);
