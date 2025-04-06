@@ -341,7 +341,7 @@ Under the blackened moon and paling sun.
     <link href="https://ponnekanti.net/posts/blog-migration/" />
     <updated>2022-11-20T00:00:00Z</updated>
     <id>https://ponnekanti.net/posts/blog-migration/</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;N.B.&lt;/strong&gt;&lt;/em&gt; &lt;em&gt;If the term &#39;Static Site Generator&#39; is unfamiliar to you, I recommend reading &lt;a href=&quot;https://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html&quot;&gt;this blogpost&lt;/a&gt; as a primer.&lt;/em&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;em&gt;N.B.&lt;/em&gt; &lt;em&gt;If the term &#39;Static Site Generator&#39; is unfamiliar to you, I recommend reading &lt;a href=&quot;https://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html&quot;&gt;this blogpost&lt;/a&gt; as a primer.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Though it may look the same, the backend of this blog has been drastically simplified. Previously, I was using the static site generator &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; to build this site, but I have now migrated to a newer, flashier, and much easier to use SSG called &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My requirements for a SSG are threefold:&lt;/p&gt;
 &lt;ol&gt;
