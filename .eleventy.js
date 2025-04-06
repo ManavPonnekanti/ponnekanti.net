@@ -1,5 +1,6 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { format } from 'date-fns';
+import markdownIt from "markdown-it";
 
 export default function(eleventyConfig) {
     //File passthroughs
@@ -30,6 +31,11 @@ export default function(eleventyConfig) {
         }
         
         return content;
+    });
+
+    const markdownLib = markdownIt({
+        html: true,
+        typographer: true // This enables smart quotes and other niceties
     });
 
     // Add a date filter to format dates
@@ -87,6 +93,7 @@ export default function(eleventyConfig) {
         return description;
     });
 
+    eleventyConfig.setLibrary("md", markdownLib);
     // Configuration for Eleventy directories and template engines
     return {
         dir: {
