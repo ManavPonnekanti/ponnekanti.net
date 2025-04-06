@@ -1,6 +1,6 @@
 ---
 title: Wellness as work ethic
-date: 2024-04-04
+date: 2024-04-01
 ---
 
 *This essay was originally published in Vol VI Issue 2 of the* RUMS Review *magazine. You can read the full issue [here](https://online.fliphtml5.com/plvos/ywhu/#p=35)*
