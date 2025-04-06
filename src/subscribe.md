@@ -16,7 +16,7 @@ After clicking the link and creating a Feedrabbit account, hit subscribe and you
 
 ## By RSS
 
-If you use an RSS reader, the feed URL is [https://ponnekanti.net/feed.xml](/feed.xml).
+If you use an RSS reader, the feed URL is <a href=https://ponnekanti.net/feed.xml type="application/atom+xml">https://ponnekanti.net/feed.xml</a>
 
 > RSS (one of those ancient internet acronyms with multiple definitions, including, but not limited to, “Really Simple Syndication”) is an invisible, automatic way for internet-connected systems to public “feeds.” For example, rather than reloading the *Wired* homepage every day and trying to figure out which stories are new (their layout makes this very hard to do!), you can just sign up for *Wired*’s RSS feed, and use an RSS reader to monitor the site and preview new stories the moment they’re published. *Wired* pushes about 600 words from each article into that feed, stripped of the usual stuff that makes *Wired* nearly impossible to read: no 20-second delay subscription pop-up, text in a font and size of your choosing. You can follow *Wired*’s feed without any cookies, and *Wired* gets no information about which of its stories you read. *Wired* doesn’t even get to know that you’re monitoring its feed.
 
