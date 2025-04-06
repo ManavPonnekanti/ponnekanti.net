@@ -1,26 +1,26 @@
-
+/* eb-garamond-regular - latin */
 @font-face {
-    font-display: swap;
-    font-family: 'Redaction';
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
     font-style: normal;
     font-weight: 400;
-    src: url('/Redaction-Regular.woff2') format('woff2');
+    src: url('/eb-garamond-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-
+  /* eb-garamond-italic - latin */
   @font-face {
-    font-display: swap;
-    font-family: 'Redaction';
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
     font-style: italic;
     font-weight: 400;
-    src: url('/Redaction-Italic.woff2') format('woff2');
+    src: url('/eb-garamond-v30-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-
+  /* eb-garamond-700 - latin */
   @font-face {
-    font-display: swap;
-    font-family: 'Redaction';
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
     font-style: normal;
     font-weight: 700;
-    src: url('/Redaction-Bold.woff2') format('woff2');
+    src: url('/eb-garamond-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
 :root {
@@ -35,8 +35,8 @@
 body {
     background-color: var(--bg);
     color: var(--text);
-    font-family: 'Redaction', serif;
-    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
     line-height: 1.6;
     margin: 0 auto;
     padding: 15px;
@@ -154,19 +154,12 @@ footer {
 .post-container {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
-
-.post-title {
-    flex: 1;
-}
-
 .post-date {
+    font-variant-numeric: tabular-nums;
     color: var(--text2);
-    min-width: max-content;
-    text-align: right;
-    justify-content: flex-end;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .footnote {
@@ -175,6 +168,6 @@ footer {
 
 @media (max-width: 600px) {
     body {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
