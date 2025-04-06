@@ -20,7 +20,7 @@ Thomas Browne, *Hydriotaphia, Urn Burial*
 
 > The tradition of richly human clinical tales reached a high point in the nineteenth century, and then declined, with the advent of an impersonal neurological science. Luria wrote: 'The power to describe, which was so common to the great nineteenth-century neurologists and psychiatrists, is almost gone now. ... It must be revived.'
 
-> What could we do? What should we do? 'There are no prescriptions, Luria wrote, 'in a case like this. Do whatever your ingenuity and your heart suggest. There is little or no hope of any recovery in his memory. But a man does not consist of memory alone. He has feeling, will, sensibilities, moral being - matters of which neuropsychology cannot speak. And it is here, beyond the realm of an impersonal psychology, that you may find ways to touch him, and change him.
+> What could we do? What should we do? 'There are no prescriptions,' Luria wrote, 'in a case like this. Do whatever your ingenuity and your heart suggest. There is little or no hope of any recovery in his memory. But a man does not consist of memory alone. He has feeling, will, sensibilities, moral being - matters of which neuropsychology cannot speak. And it is here, beyond the realm of an impersonal psychology, that you may find ways to touch him, and change him.'
 
 Oliver Sacks, *The Man Who Mistook His Wife for a Hat*
 
