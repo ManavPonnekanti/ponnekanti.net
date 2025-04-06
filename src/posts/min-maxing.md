@@ -3,7 +3,7 @@ title: Min-maxing quality of life enhancements
 date: 2024-03-20
 lastModified: 2024-11-30
 ---
-I’ve come to believe that for each respective QoL enhancement there is an optimal level of engagement at which you reap pretty much all of the benefit, and any further cognitive energy and money you funnel into it is just chasing a nonexistent white whale.
+I’ve come to believe that for each respective QoL enhancement there is an optimal level of engagement at which you reap pretty much all of the benefit, and any further cognitive energy and money you funnel into it is just chasing a non-existent white whale.
 
 In an effort to make hundreds of hours of forum-trawling worth something, below is a list of the various niches I’ve become obsessed with over the years and associated products which I think represent the pragmatic peak. Go no further, just buy it and enjoy it and do more useful things with your time.
 
