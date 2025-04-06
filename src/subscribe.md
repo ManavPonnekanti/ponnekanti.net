@@ -1,13 +1,15 @@
 ---
-title: Subscribe
+title: Subscribe to new posts
 layout: page.njk
 ---
-To receive new posts via email, enter your email address below:
+Click [here](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fponnekanti.net%2Ffeed.xml) to subscribe via Feedrabbit.
 
-<form class="subscribe-box" action="https://docs.google.com/forms/d/e/1FAIpQLSdjHv8SvZxShkZVvNVEGXf4DRHJZDqcPEqUY7EqBSgOtJGByw/formResponse" method="POST" target="_blank">
-    <input type="email" name="entry.950185210" placeholder="you@domain.com" required>
-    <button type="submit">Subscribe</button>
-</form>
-<p class=disclaimer>Powered by Google Forms.</p>
+Feedrabbit is an RSS-to-email service. This means that it sends new posts to your email whenever they are published. The emails look like this:
 
-If you use an RSS reader, a [feed](/feed.xml) is also available.
+![Feedrabbit email screenshot](/feedrabbit-screenshot.jpg)
+
+Unlike newsletter services like Substack, there are no ads or tracking and it's unidirectional – I can't see who subscribes. This means you can lie to me about reading my posts and I will be none the wiser.
+
+After clicking the link and creating a Feedrabbit account, hit subscribe and you will receive a confirmation email. Make sure to click the link in there to start receiving posts.
+
+If you use an RSS reader, you can just access the feed directly. The feed URL is [https://ponnekanti.net/feed.xml](/feed.xml).

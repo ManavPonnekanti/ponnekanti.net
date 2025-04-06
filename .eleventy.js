@@ -66,7 +66,8 @@ export default function(eleventyConfig) {
             author: {
                 name: "Manav Ponnekanti",
                 email: "manav@ponnekanti.net",
-            }
+            },
+            description: "And now I see with eye serene / The very pulse of the machine"
         }
     });
 
