@@ -8,7 +8,7 @@ Click [here](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fponnekan
 
 Feedrabbit is an RSS-to-email service. This means that it sends new posts to your inbox whenever they are published. The emails look like this:
 
-![Feedrabbit email screenshot](/feedrabbit-screenshot.jpg)
+![Feedrabbit email screenshot](feedrabbit-screenshot.png)
 
 Unlike newsletter services like Substack, it's invisible – there are no ads or tracking and I can't see who subscribes. This means you can lie to me about reading my posts and I will be none the wiser.
 

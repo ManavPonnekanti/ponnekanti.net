@@ -7,7 +7,7 @@ In this post I am going to try to make you care about some things that you almos
 
 [Purelymail](https://purelymail.com) is a one-man-band company that, as the name promises, deals purely in mail. That is the sell: no BS, no tracking, just your email. The barebones nature of the service is part of the aesthetic:
 
-![Purelymail lander](/purelymail-lander.png)
+![Purelymail lander](purelymail-lander.png)
 
 To those unfamiliar with the world of software made by one or a handful of obsessive enthusiasts, they might see a website like the above and think it is at worst a scam, at best a low-effort GCSE Computer Science project. What I wish to convince you of is that services that look like this are so good that they don't have to care about looking pretty*. To be sure, there is beautiful craft software out there, like anything my friend [Judah](https://joodaloop.com) makes, but more often than not it looks like this. So why use it?
 
