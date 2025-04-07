@@ -2,10 +2,9 @@
 layout: page.njk
 title: About
 ---
+I'm a medical student at UCL interested in computational approaches to behavioural neuroscience and psychiatry. I am also inclined towards phenomenological psychopathology: taking the first-person report of mental illness evidentially seriously and investigating the structure of subjectivity. Finding continuity between these two paradigms is my primary academic goal – *ars longa, vita brevis*. 
 
-I'm a medical student at UCL interested in computational approaches to behavioural neuroscience and psychiatry. I am also personally inclined towards the philosophy and phenomenology of psychopathology – finding continuity between these two paradigms is my primary academic goal.
-
-You can contact me via email at [firstname] at ponnekanti dot net.
+My blog-posts span the above as well as various non-medical interests ([disclaimer](/disclaimer)). You can contact me via email at my first name at ponnekanti dot net.
 
 ## Previous Work
 
