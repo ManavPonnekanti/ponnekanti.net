@@ -2,24 +2,15 @@
 title: Subscribe to new posts
 layout: page.njk
 ---
-## By Email
+To receive new posts via email, enter your email address below:
 
-Click [here](https://feedrabbit.com/subscriptions/new?url=https%3A%2F%2Fponnekanti.net%2Ffeed.xml) to subscribe via Feedrabbit.
+<form class="subscribe-box" action="https://docs.google.com/forms/d/e/1FAIpQLSdjHv8SvZxShkZVvNVEGXf4DRHJZDqcPEqUY7EqBSgOtJGByw/formResponse" method="POST" target="_blank">
+    <input type="email" name="entry.950185210" placeholder="you@domain.com" required>
+    <button type="submit">Subscribe</button>
+</form>
+<p class=disclaimer>Powered by Google Forms.</p>
 
-Feedrabbit is an RSS-to-email service. This means that it sends new posts to your inbox whenever they are published. The emails look like this:
+There is no fancy automated newsletter – when I publish a new post on here, I manually send it out as a BCC email to everyone on the mailing list. So, if you are particularly enthusiastic, email me anything at `manav at ponnekanti dot net` after you sign up. This will prevent my emails from being flagged at spam.
 
-![Feedrabbit email screenshot](feedrabbit-screenshot.png)
 
-Unlike newsletter services like Substack, it's invisible – there are no ads or tracking and I can't see who subscribes. This means you can lie to me about reading my posts and I will be none the wiser.
-
-After clicking the link and creating a Feedrabbit account, hit subscribe and you will receive a confirmation email. Make sure to click the link in there to start receiving posts.
-
-## By RSS
-
-If you use an RSS reader, the feed URL is [https://ponnekanti.net/feed.xml](/feed.xml)
-
-> RSS (one of those ancient internet acronyms with multiple definitions, including, but not limited to, “Really Simple Syndication”) is an invisible, automatic way for internet-connected systems to public “feeds.” For example, rather than reloading the *Wired* homepage every day and trying to figure out which stories are new (their layout makes this very hard to do!), you can just sign up for *Wired*’s RSS feed, and use an RSS reader to monitor the site and preview new stories the moment they’re published. *Wired* pushes about 600 words from each article into that feed, stripped of the usual stuff that makes *Wired* nearly impossible to read: no 20-second delay subscription pop-up, text in a font and size of your choosing. You can follow *Wired*’s feed without any cookies, and *Wired* gets no information about which of its stories you read. *Wired* doesn’t even get to know that you’re monitoring its feed.
-
-Cory Doctorow, [*You should be using an RSS reader*](https://doctorow.medium.com/you-should-be-using-an-rss-reader-76aed31151f9)
-
-I like [NetNewsWire](https://netnewswire.com).
+If you use an RSS reader, a [feed](/feed.xml) is also available.
