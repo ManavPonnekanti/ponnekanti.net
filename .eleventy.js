@@ -7,9 +7,7 @@ import fs from "fs";
 import path from "path";
 
 export default function (eleventyConfig) {
-  // ----------------------------------------------------------------------------
   // Basic pass-through & config
-  // ----------------------------------------------------------------------------
   eleventyConfig.addPassthroughCopy("src/style.css");
   eleventyConfig.addPassthroughCopy({ "src/fonts/": "/" });
   eleventyConfig.addPassthroughCopy({ "src/favicon/": "/" });
@@ -23,16 +21,12 @@ export default function (eleventyConfig) {
   const markdownLib = markdownIt({ html: true, typographer: true });
   eleventyConfig.setLibrary("md", markdownLib);
 
-  // ----------------------------------------------------------------------------
   // Date filter
-  // ----------------------------------------------------------------------------
   eleventyConfig.addFilter("date", (date, dateFormat) => {
     return format(date, dateFormat);
   });
 
-  // ----------------------------------------------------------------------------
   // Add a custom Nunjucks filter for ordinal dates with superscript
-  // ----------------------------------------------------------------------------
   eleventyConfig.addNunjucksFilter("ordinalDate", function(date) {
     const day = new Date(date).getDate();
     const suffix = ["th", "st", "nd", "rd"];
@@ -41,9 +35,7 @@ export default function (eleventyConfig) {
     return `${day}<sup>${ordinal}</sup> ${new Date(date).toLocaleString('default', { month: 'long' })} ${new Date(date).getFullYear()}`;
 });
 
-  // ----------------------------------------------------------------------------
   // Collection for sorting posts by year
-  // ----------------------------------------------------------------------------
   eleventyConfig.addCollection("posts", (collectionApi) => {
     return collectionApi.getFilteredByGlob("./src/posts/*.md").map((post) => {
       post.data.year = new Date(post.date).getFullYear();
@@ -51,9 +43,7 @@ export default function (eleventyConfig) {
     });
   });
 
-  // ----------------------------------------------------------------------------
   // RSS Feed
-  // ----------------------------------------------------------------------------
   eleventyConfig.addPlugin(feedPlugin, {
     type: "atom",
     outputPath: "/feed.xml",
@@ -73,9 +63,7 @@ export default function (eleventyConfig) {
     }
   });
 
-  // ----------------------------------------------------------------------------
   // Meta description filter
-  // ----------------------------------------------------------------------------
   eleventyConfig.addNunjucksFilter("metaDescription", (content) => {
     const maxLength = 160;
     let description = content
@@ -95,9 +83,7 @@ export default function (eleventyConfig) {
     return description;
   });
 
-  // ----------------------------------------------------------------------------
   // External links open in new tab
-  // ----------------------------------------------------------------------------
   eleventyConfig.addTransform("externalLinks", (content, outputPath) => {
     if (outputPath && outputPath.endsWith(".html")) {
       const $ = load(content);
@@ -113,9 +99,7 @@ export default function (eleventyConfig) {
     return content;
   });
 
-  // ----------------------------------------------------------------------------
   // SINGLE TRANSFORM: Image Optimisation + Lazy Loading
-  // ----------------------------------------------------------------------------
   eleventyConfig.addTransform("optimizeAndLazyImages", async (content, outputPath) => {
     if (outputPath && outputPath.endsWith(".html")) {
       const $ = load(content);
@@ -242,9 +226,7 @@ export default function (eleventyConfig) {
     return content;
   });
 
-  // ----------------------------------------------------------------------------
   // Final Eleventy config
-  // ----------------------------------------------------------------------------
   return {
     dir: {
       input: "src",
