@@ -4,9 +4,9 @@ layout: "base.njk"
 <main>
     <h1 style="margin-bottom: 2px;">{{ title | safe }}</h1> 
     {% if lastModified %}
-    <p class="subtitle">Published: {{ date | date("dd/MM/yyyy") }}<br>Last modified: {{ lastModified | date("dd/MM/yyyy") }}</p>
+    <p class="subtitle">Published {{ date | ordinalDate | safe }}<br>Last modified {{ lastModified | ordinalDate | safe }}</p>
     {% else %}
-    <p class="subtitle">{{ date | date("dd/MM/yyyy") }}</p>
+    <p class="subtitle">{{ date | ordinalDate | safe }}</p>
     {% endif %}
     <p>{{ content | safe }}</p>
 </main>

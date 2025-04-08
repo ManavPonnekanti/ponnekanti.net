@@ -31,7 +31,18 @@ export default function (eleventyConfig) {
   });
 
   // ----------------------------------------------------------------------------
-  // Collections
+  // Add a custom Nunjucks filter for ordinal dates with superscript
+  // ----------------------------------------------------------------------------
+  eleventyConfig.addNunjucksFilter("ordinalDate", function(date) {
+    const day = new Date(date).getDate();
+    const suffix = ["th", "st", "nd", "rd"];
+    const value = day % 100;
+    const ordinal = suffix[(value - 20) % 10] || suffix[value] || suffix[0];
+    return `${day}<sup>${ordinal}</sup> ${new Date(date).toLocaleString('default', { month: 'long' })} ${new Date(date).getFullYear()}`;
+});
+
+  // ----------------------------------------------------------------------------
+  // Collection for sorting posts by year
   // ----------------------------------------------------------------------------
   eleventyConfig.addCollection("posts", (collectionApi) => {
     return collectionApi.getFilteredByGlob("./src/posts/*.md").map((post) => {
